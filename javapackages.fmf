@@ -2,12 +2,7 @@ summary: Run javapackages-specific tests
 discover:
   how: fmf
 provision:
-  - name: myhost1
-    how: container
-    image: registry.fedoraproject.org/fedora:37
-  - name: myhost2
-    how: container
-    image: registry.fedoraproject.org/fedora:36
+  how: container
+  image: registry.fedoraproject.org/fedora:37
 execute:
   how: tmt
-  where: myhost1
