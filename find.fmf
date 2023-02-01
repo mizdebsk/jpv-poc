@@ -1,4 +1,4 @@
-summary: list files in root
-description: list contents of system root
+summary: artifacts
+description: list artifacts
 contact: Mikolaj Izdebski <mizdebsk@redhat.com>
-test: find / -maxdepth 3
+test: find /var/ARTIFACTS
