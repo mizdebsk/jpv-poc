@@ -1,0 +1,4 @@
+summary: os-release test
+description: display contents of /etc/os-release
+contact: Mikolaj Izdebski <mizdebsk@redhat.com>
+test: cat /etc/os-release
