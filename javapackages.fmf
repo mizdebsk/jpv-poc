@@ -4,5 +4,6 @@ discover:
 provision:
   how: container
   image: registry.access.redhat.com/ubi9
+  pull: true
 execute:
   how: tmt
