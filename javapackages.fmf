@@ -1,0 +1,11 @@
+summary: Run javapackages-specific tests
+discover:
+  how: shell
+  tests:
+    - name: hello
+      test: echo hello world
+provision:
+  how: container
+  image: registry.access.redhat.com/ubi9
+execute:
+  how: tmt
