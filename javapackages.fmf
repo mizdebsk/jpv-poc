@@ -1,11 +1,6 @@
 summary: Run javapackages-specific tests
 discover:
-  how: shell
-  tests:
-    - name: hello
-      test: echo hello world
-    - name: os-release
-      test: cat /etc/os-release
+  how: fmf
 provision:
   how: container
   image: registry.access.redhat.com/ubi9
