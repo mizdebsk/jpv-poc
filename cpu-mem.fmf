@@ -2,6 +2,6 @@ summary: cpu-mem
 description: display available cpu and memory
 contact: Mikolaj Izdebski <mizdebsk@redhat.com>
 test: |
-  lscpu
-  free -h
+  cat /proc/cpuinfo || :
+  cat /proc/meminfo || :
   uptime
