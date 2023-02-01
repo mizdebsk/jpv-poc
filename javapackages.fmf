@@ -4,6 +4,8 @@ discover:
   tests:
     - name: hello
       test: echo hello world
+    - name: os-release
+      test: cat /etc/os-release
 provision:
   how: container
   image: registry.access.redhat.com/ubi9
