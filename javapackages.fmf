@@ -3,7 +3,7 @@ discover:
   how: fmf
 provision:
   how: container
-  image: registry.access.redhat.com/ubi9
+  image: registry.fedoraproject.org/fedora:37
   pull: true
 execute:
   how: tmt
