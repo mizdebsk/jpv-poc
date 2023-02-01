@@ -1,0 +1,4 @@
+summary: list files in root
+description: list contents of system root
+contact: Mikolaj Izdebski <mizdebsk@redhat.com>
+test: find / -maxdepth 3
