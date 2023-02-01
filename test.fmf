@@ -1,4 +1,7 @@
 summary: os-release test
 description: display contents of /etc/os-release
 contact: Mikolaj Izdebski <mizdebsk@redhat.com>
-test: cat /etc/os-release
+test: |
+  cat /etc/os-release
+  echo FOO=$FOO
+  echo BAR=$BAR
