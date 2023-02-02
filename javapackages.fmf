@@ -3,6 +3,6 @@ discover:
   how: fmf
 provision:
   how: container
-  image: registry.fedoraproject.org/fedora:37
+  image: quay.io/mizdebsk/javapackages-validator
 execute:
   how: tmt
