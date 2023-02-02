@@ -1,4 +1,0 @@
-summary: mounts
-description: list mounted filesystems
-contact: Mikolaj Izdebski <mizdebsk@redhat.com>
-test: mount

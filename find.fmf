@@ -1,4 +1,0 @@
-summary: artifacts
-description: list artifacts
-contact: Mikolaj Izdebski <mizdebsk@redhat.com>
-test: find /var/ARTIFACTS
