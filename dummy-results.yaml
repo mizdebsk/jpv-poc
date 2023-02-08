@@ -3,6 +3,7 @@
   log:
    - data/test/output.txt
    - data/test/data/log1.html
+   - data/test/data/log0.html
    - data/test/data/subdir/another.log
 - name: /my/test-two
   result: pass
