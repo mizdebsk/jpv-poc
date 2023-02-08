@@ -1,3 +1,8 @@
 test: |
   cat dummy-results.yaml >${TMT_TEST_DATA}/results.yaml
+  echo LOG ONE >${TMT_TEST_DATA}/log1.log
+  echo LOG TWO >${TMT_TEST_DATA}/log2.log
+  echo LOG THREE >${TMT_TEST_DATA}/log3.log
+  mkdir ${TMT_TEST_DATA}/subdir
+  echo ANOTHER >${TMT_TEST_DATA}/subdir/another.log
 result: custom

@@ -1,15 +1,15 @@
 - name: /my/test-one
   result: info
   log:
-   - log1.log
-   - another.log
+   - data/test/data/log1.log
+   - data/test/data/subdir/another.log
 - name: /my/test-two
   result: pass
   log:
-   - log2.log
-   - another.log
+   - data/test/data/log2.log
+   - data/test/data/subdir/another.log
 - name: /my/test-three
   result: fail
   log:
-   - log3.log
-   - another.log
+   - data/test/data/log3.log
+   - data/test/data/subdir/another.log
