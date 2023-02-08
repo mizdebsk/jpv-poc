@@ -1,0 +1,15 @@
+- name: /my/test-one
+  result: info
+  log:
+   - log1.log
+   - another.log
+- name: /my/test-two
+  result: pass
+  log:
+   - log2.log
+   - another.log
+- name: /my/test-three
+  result: fail
+  log:
+   - log3.log
+   - another.log

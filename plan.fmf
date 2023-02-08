@@ -1,4 +1,3 @@
-summary: Run javapackages-specific tests
 discover:
   how: fmf
 provision:

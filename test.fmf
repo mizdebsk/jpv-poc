@@ -1,6 +1,3 @@
-summary: hello test
-description: say hello
-contact: Mikolaj Izdebski <mizdebsk@redhat.com>
 test: |
-  echo HELLO
-  cat /etc/os-release
+  cat dummy-results.yaml >${TMT_TEST_DATA}/results.yaml
+result: custom
