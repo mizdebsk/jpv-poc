@@ -1,5 +1,6 @@
 test: |
   set -x
+  chmod a+rwx ${TMT_TEST_DATA}
   ls -ld ${TMT_TEST_DATA}
   echo ===
   cat dummy-results.yaml >${TMT_TEST_DATA}/results.yaml
