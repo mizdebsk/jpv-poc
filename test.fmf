@@ -5,4 +5,6 @@ test: |
   echo LOG THREE >${TMT_TEST_DATA}/log3.log
   mkdir ${TMT_TEST_DATA}/subdir
   echo ANOTHER >${TMT_TEST_DATA}/subdir/another.log
+  echo hello stdout
+  echo hello stderr >&2
 result: custom
