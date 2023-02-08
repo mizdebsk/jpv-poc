@@ -4,10 +4,6 @@ test: |
   echo ===
   cat dummy-results.yaml >${TMT_TEST_DATA}/results.yaml
   echo "<h1>LOG ONE</h1><p>This is <b>HTML</b></p>" >${TMT_TEST_DATA}/log1.html
-  echo "<h1>DIFFERENT HTML LOG</h1><p>This is <b>HTML TOO</b></p><script>alert('hello from test log')</script>" >${TMT_TEST_DATA}/log0.html
-  echo LOG TWO >${TMT_TEST_DATA}/log2.log
-  echo LOG THREE >${TMT_TEST_DATA}/log3.log
-  mkdir ${TMT_TEST_DATA}/subdir
   echo ANOTHER >${TMT_TEST_DATA}/subdir/another.log
   echo hello stdout
   echo hello stderr >&2
